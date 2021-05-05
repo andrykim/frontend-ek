@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cuprum&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="exam.css">
+</head>
+<body>
+<div class="container">
+    <h1 >SQL Quiz</h1>
+
+
+    <p class="quetion" id  = "question"></p>
+    <p class="item"><input type="radio" name="test" id="y1"><span  id = "a1"></span></p>
+    <p class="item"><input type="radio" name="test" id="y2"><span  id = "a2"></span></p>
+    <p class="item"><input type="radio" name="test" id="y3"><span  id = "a3"></span></p>
+    <p class="item"><input type="radio" name="test" id="y4"><span  id = "a4"></span></p>
+
+    <button class="button1 " id = "btn">Answer the question</button>
+
+    <div class="right_div hidden" id = "right_div">
+        <p class="right" id="right">Right answer!</p>
+        <button class="button2" id = "btn2">Next</button>
+    </div>
+    <div class="wrong_div hidden" id="wrong_div">
+        <p class="wrong" id="wrong">Right answer!</p>
+        <button class="button3" id = "btn1">Show answer</button>
+    </div>
+    <p id="answer" class = "hidden"></p>
+
+</div>
+<input type="hidden" value = "0" id = "n_question">
+
+<script src="exam1.js"></script>
+
+</body>
+</html>
