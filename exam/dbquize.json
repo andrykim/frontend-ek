@@ -1,0 +1,15 @@
+[
+{"type":"header","version":"5.1.0","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"phpmyadmin"},
+{"type":"table","name":"dbquize","database":"phpmyadmin","data":
+[
+{"id":"1","question":"What does SQL stand for?","a1":"Structured Query Language","a2":"Structured Question Language","a3":"Strong Question Language","a4":"Strong Query Language","answer":"Structured Query Language","n_answer":"1"},
+{"id":"2","question":"Which SQL statement is used to extract data from a table?","a1":"SELECT","a2":"GET","a3":"OPEN","a4":"EXTRACT","answer":"SELECT","n_answer":"1"},
+{"id":"3","question":"Which SQL statement is used to update data in a table?","a1":"UPDATE","a2":"MODIFY","a3":"SAVE","a4":"SAVE AS","answer":"UPDATE","n_answer":"1"},
+{"id":"4","question":"Which SQL statement is used to delete records from a table?","a1":"DELETE","a2":"REMOVE","a3":"DROP","a4":"CLEAN","answer":"DELETE","n_answer":"1"},
+{"id":"5","question":"Which SQL statement is used to insert new records in a table?","a1":"INSERT INTO","a2":"INSERT NEW","a3":"ADD RECORD","a4":"ADD NEW","answer":"INSERT INTO","n_answer":"1"},
+{"id":"6","question":"With SQL, how do you select a column named \"FirstName\" from a table named \"Persons\"?","a1":"SELECT FirstName FROM Persons","a2":"EXTRACT FirstName FROM Persons","a3":"SELECT FirstName [Persons]","a4":"SELECT * FROM Persons","answer":"SELECT FirstName FROM Persons","n_answer":"1"},
+{"id":"7","question":"With SQL, how do you select all the columns from a table named \"Persons\"?","a1":"SELECT * FROM Persons","a2":"SELECT Persons","a3":"SELECT ALL FROM Persons","a4":"SELECT ^ FROM Persons","answer":"SELECT * FROM Persons","n_answer":"1"}
+]
+}
+]
